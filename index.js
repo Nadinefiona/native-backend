@@ -21,4 +21,4 @@ const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log("The app is listening at port " + port);
 });
-module.exports = app;
+export default app;
