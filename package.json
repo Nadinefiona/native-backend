@@ -4,9 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "jest --forceExit",
-        "dev": "nodemon --exec babel-node index.js",
-        "start": "node --experimental-specifier-resolution=node index.js"
+    "test": "jest --forceExit",
+    "dev": "nodemon --exec babel-node index.js",
+    "build": "babel src -d dist",
+    "start": "node dist/index.js"
     },
     "repository": {
         "type": "git",
